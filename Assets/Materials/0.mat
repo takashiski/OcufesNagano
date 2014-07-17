@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 0
+  m_Shader: {fileID: 4800000, guid: a65994cb353789f49bdc50b95035f956, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: 2001
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ToonTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4b27dfac70974dd4f86f75f1f56d0af6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SphereCube
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 6
+      data:
+        first:
+          name: _ShadowLum
+        second: 1.5
+      data:
+        first:
+          name: _SelfShadow
+        second: 1
+      data:
+        first:
+          name: _EdgeScale
+        second: .00100000005
+      data:
+        first:
+          name: _EdgeSize
+        second: .00100000005
+      data:
+        first:
+          name: _SphereMode
+        second: 0
+      data:
+        first:
+          name: _SphereMul
+        second: 0
+      data:
+        first:
+          name: _SphereAdd
+        second: 0
+      data:
+        first:
+          name: _ALPower
+        second: 0
+      data:
+        first:
+          name: _AddLightToonCen
+        second: -.100000001
+      data:
+        first:
+          name: _AddLightToonMin
+        second: .5
+      data:
+        first:
+          name: _Revision
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .800000012, g: .712000012, b: .624000013, a: 1}
+      data:
+        first:
+          name: _Specular
+        second: {r: .0900000036, g: .0900000036, b: .0900000036, a: 0}
+      data:
+        first:
+          name: _Ambient
+        second: {r: .5, g: .444999993, b: .389999986, a: 0}
+      data:
+        first:
+          name: _EdgeColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Emissive
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DefLightDir0
+        second: {r: 0, g: 0, b: 1, a: 1}
+      data:
+        first:
+          name: _DefLightColor0
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TempDiffuse
+        second: {r: .780000031, g: .694200039, b: .608399987, a: 1}
+      data:
+        first:
+          name: _TempAmbient
+        second: {r: .200000003, g: .178000003, b: .156000003, a: 0}
+      data:
+        first:
+          name: _TempAmbientL
+        second: {r: 0, g: .110000014, b: .220000029, a: 0}
