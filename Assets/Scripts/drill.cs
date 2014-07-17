@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class drill : MonoBehaviour {
-	public GameObject driver;
+	public Vector3 rotateDir = new Vector3(0,1,0);
+	public float moveAngle = 3600;
 	// Use this for initialization
 	void Start () {
 		
@@ -10,6 +11,6 @@ public class drill : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		driver.transform.Rotate (new Vector3(0,120,0));
+		transform.Rotate (rotateDir*moveAngle*Time.fixedDeltaTime);
 	}
 }
