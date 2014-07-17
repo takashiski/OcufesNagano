@@ -3,7 +3,7 @@ using System.Collections;
 
 [RequireComponent(typeof(AudioSource))]
 public class DrillSound : MonoBehaviour {
-	public AudioClip[] se;
+	public AudioClip[] se = new AudioClip[3];
 	private AudioSource source;
 	// Use this for initialization
 	void Awake() {
@@ -15,7 +15,7 @@ public class DrillSound : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//if(!source.isPlaying)
+		if(!source.isPlaying)
 			source.Play ();
 	}
 }
