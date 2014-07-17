@@ -1379,7 +1379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c4bd0104b1ac6543b421fb3434e9334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  driver: {fileID: 100048}
+  rotateDir: {x: 0, y: 1, z: 0}
+  moveAngle: 3600
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
